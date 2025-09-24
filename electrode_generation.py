@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Feb 20 09:34:47 2024
-
-@author: aabucide
-"""
-
 from electrode_generator_auto import ElectrodeGeneratorAuto
 from itertools import product
 
@@ -114,4 +107,5 @@ for s, tries, vox, CBD_nano, thick, over, CBD_meth, (m0, m1, m2) in product(
             theta_y=theta_y,
             theta_z=theta_z,
             material='Graphite'
+
         )
